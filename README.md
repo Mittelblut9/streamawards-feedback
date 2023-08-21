@@ -1,4 +1,5 @@
-![Stream Awards](assets/Title.png)
+![Stream Awards](assets/Title.png#gh-dark-mode-only)
+![Stream Awards](assets/Title_dark.png#gh-light-mode-only)
 
 # Feedback Repository
 Die Stream Awards gehen in die **2. Runde** und wir möchten euch hier die Möglichkeit Feedback zu geben oder Fehler zu melden.
