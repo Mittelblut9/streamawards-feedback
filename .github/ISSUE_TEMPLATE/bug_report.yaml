@@ -1,77 +1,69 @@
 name: Bug Report
 description: Create a report to help us improve
-title: ""
+title: '[BUG]: '
 labels: []
-
 body:
-    - type: input
-      attributes:
-          label: Describe the bug
-          description: A clear and concise description of what the bug is.
-      validations:
-          required: true
-
-    - type: input
-      attributes:
-          label: To Reproduce
-          description: Steps to reproduce the behavior.
-          placeholder: |
-              1. Go to '...'
-              2. Click on '....'
-              3. Scroll down to '....'
-              4. See error
-      validations:
-          required: true
-
-    - type: input
-      attributes:
-          label: Expected behavior
-          description: A clear and concise description of what you expected to happen
-
-    - type: textarea
-      attributes:
-          label: Screenshots
-          description: If applicable, add screenshots to help explain your problem
-
-    - type: dropdown
-      attributes:
-          label: Desktop
-          options:
-              - iOS
-              - Android
-              - Windows
-              - MacOS
-              - Linux
-          multiple: false
-          placeholder: Select your operating system
-      validations:
-          required: true
-
-    - type: dropdown
-      attributes:
-          label: Browser
-          options:
-              - Chrome
-              - Safari
-              - Firefox
-              - Edge
-              - Opera
-              - Vivaldi
-              - DuckDuckGo
-          multiple: false
-          placeholder: Select your browser
-      validations:
-          required: true
-
-    - type: input
-      attributes:
-          label: Version
-          description: The version of the browser you are using
-          placeholder: 89.0.4389.90
-      validations:
-          required: true
-
-    - type: textarea
-      attributes:
-          label: Additional context
-          description: Add any other context about the problem here.
+  - type: input
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: 'If applicable, add screenshots to help explain your problem'
+  - type: dropdown
+    attributes:
+      label: Desktop
+      options:
+        - iOS
+        - Android
+        - Windows
+        - MacOS
+        - Linux
+      multiple: false
+      placeholder: Select your operating system
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Safari
+        - Firefox
+        - Edge
+        - Opera
+        - Vivaldi
+        - DuckDuckGo
+      multiple: false
+      placeholder: Select your browser
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Version
+      description: The version of the browser you are using
+      placeholder: 89.0.4389.90
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
