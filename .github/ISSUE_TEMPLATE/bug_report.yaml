@@ -31,6 +31,7 @@ body:
   - type: dropdown
     attributes:
       label: Desktop
+      description: Select your operating system
       options:
         - iOS
         - Android
@@ -38,12 +39,12 @@ body:
         - MacOS
         - Linux
       multiple: false
-      placeholder: Select your operating system
     validations:
       required: true
   - type: dropdown
     attributes:
       label: Browser
+      description: Select your browser
       options:
         - Chrome
         - Safari
